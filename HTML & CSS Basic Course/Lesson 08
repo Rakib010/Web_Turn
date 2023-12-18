@@ -1,0 +1,47 @@
+     **Display property**
+
+<!-- 1 number exercise-->
+    <input type="text" placeholder="name">
+    <input type="text" placeholder="Email">
+
+     <!-- 2 number exercise-->
+    <p>Thanks for chatting with our customer support.
+        Would you like to take our quick survey?
+    </p>
+    <button>Yes</button>
+    <button>No</button>
+
+    <!-- 3 number exercise-->
+     <img class="photo" src="download.png">
+     <input class="text-box"   type="text" placeholder="Search Google or type a URL">
+
+/*CSS Display property*/
+
+input{
+    display: block;
+    margin-bottom:5px;
+}
+p{
+    width: 200px;
+    display: inline-block ;
+    vertical-align: middle;
+}
+button{
+   display: inline-block;
+}
+.photo{
+    display: block;
+    width: 150px;
+    margin-left: 150px;
+    margin-bottom:10px; 
+}
+.text-box{
+    color: gray;
+    width:400px;
+    font-size: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.4);
+    margin-left: 20px;
+}
