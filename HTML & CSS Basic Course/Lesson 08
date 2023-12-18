@@ -45,3 +45,44 @@ button{
     box-shadow: 0 1px 6px rgba(0,0,0,0.4);
     margin-left: 20px;
 }
+
+   <!--4 number exercise sign up from-->
+     
+     <input class="first-name" type="text" placeholder="First name">
+     <input class="last-name" type="text" placeholder="Last name">
+      <input class="email" type="text" placeholder="Email">
+      <button>Sign Up</button>
+
+
+input{
+       border-width: 1px;
+       border-style: solid;
+       border-color: rgb(200,200,200);
+       padding: 12px 16px 12px 16px;
+       font-size: 16px;
+       border-radius: 8px;
+       margin-bottom: 12px;
+}
+.first-name{
+   width: 100px;
+}
+.last-name{
+  width: 100px;
+}
+.email{
+   display: block;
+   width: 230px;
+}
+button{
+    background-color: rgb(47, 127, 231);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 14px 0px 14px 0px;
+    width: 200px;
+    
+   
+}
+
