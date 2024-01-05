@@ -16,7 +16,8 @@
          </div>
         </div>
       </div>
- ** CSS **
+
+** CSS **
   div{
    font-family: Arial;
  }
@@ -74,3 +75,59 @@
 .message{
    color: rgb(120,120,120);
 }
+
+// same as above css file this html
+
+<div class="container">
+        <div class="inbox-label">ALL INBOXES</div>
+        <div class="email">
+          <div class="photo-conrtainer">
+            <img class="photo" src="cat.jpg" alt="">
+          </div>
+         <div class="email-content">
+          <div class="email-header">
+            <div class="name">Chewy promotions</div>
+            <div class="time">4.58 PM</div>
+          </div>
+           <div class="sub">Biggest sales of the year</div>
+             <div class="message">
+              Hey there! We're writting to tell you about our....
+             </div>
+         </div>
+        </div>
+
+        <div class="email">
+          <div class="photo-conrtainer">
+            <img class="photo" src="dog.jpg" alt="">
+          </div>
+          <div class="email-content">
+            <div class="email-header">
+              <div class="name">Best Buy</div>
+              <div class="time">12.32 PM</div>
+            </div>
+             <div class="sub">your Best Buy eReceipt</div>
+               <div class="message">
+                Thank you for shopping at Best Buy, here is..
+               </div>
+           </div>
+          </div>
+             
+          <div class="email">
+            <div class="photo-conrtainer">
+              <img class="photo" src="cat.jpg" alt="">
+            </div>
+            <div class="email-content">
+              <div class="email-header">
+                <div class="name">Netflix</div>
+                <div class="time">9.00 Am</div>
+              </div>
+              <div class="sub">Here's what coming soon to netfli</div>
+             <div class="message">Brand new movies and shows, old favorites..</div>
+            </div>
+          </div>
+      </div>
+
+  
+
+
+
