@@ -127,6 +127,101 @@
           </div>
       </div>
 
+//another excrise
+
+ <div class="container">
+        <div class="photo-colum"></div>
+       <div class="photo-container">
+          <img class="photo" src="cat.jpg" alt="">
+       </div>
+         <div class="p1">
+             <div class="p2">
+              <div class="name">Supersimple.dav</div>
+               <div class="copyname">@SupersimpleDev</div>
+             </div>
+               <div class="p-about">
+                  What is backend web development?
+                  overviwe. New video is up!
+               </div>
+                <div class="video">
+                  <div class="box"></div>
+                   <div class="video-info">
+                     <div class="video-sub">
+                      youtube.com
+                     </div>
+                     <div class="video-tital">
+                      Backend web developent -a complete overview(2024)
+                     </div>
+                   </div>
+                </div>
+         </div>
+     </div>
+   
+// CSS code
+
+div{
+  font-family: Arial;
+}
+.container{
+   display: flex;
+   flex-direction: row;
+   width: 420px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+.photo{
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+ .p1{
+    margin-left: 12px;
+    flex: 1;
+ } 
+.p2{
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 5px;
+}
+.name{
+  font-weight: bold;
+  margin-left: 5px;
+}
+.copyname{
+    color:rgb(111,111,111);   
+}
+.p-about{
+     line-height: 20px;
+     margin-bottom: 15px;
+}
+.video{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(200,200,200);
+      border-radius: 15px;
+      overflow: hidden;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(220,220,220);
+    margin-right: 10px;
+}
+.video-info{
+    margin-left: 15px;
+}
+.video-sub{
+  color: gray;
+  margin-bottom: 3px;
+}
+.video-tital{
+     line-height: 22px;
+     
+}
   
 
 
