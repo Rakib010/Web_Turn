@@ -53,4 +53,88 @@
     bottom:24px;
     right:24px;
   }
+// Fashion styel - discount 20% 
 
+ <div class="box">
+         <img class="shirt" src="shirt.jpg" alt="">
+         <div class="name">20% OFF</div>
+          <div class="add">Add to Cart</div>
+      </div>
+
+.box{
+    position: relative;
+    display: inline-block;
+
+}
+.shirt{
+   width: 300px;
+   height: 300px;
+   object-fit: cover;
+}
+.name{
+     background-color: black;
+     color: white;
+     position: absolute;
+     top: 10px;
+     right: 0;
+     font-family: Arial;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     padding-left: 12px;
+     padding-right: 12px;
+
+}
+
+// new add - Add to cart same above photo
+      <div class="box">
+         <img class="shirt" src="shirt.jpg" alt="">
+         <div class="name">20% OFF</div>
+          <div class="cart">
+            <div class="add">Add to Cart</div>
+          </div>
+      </div>
+
+.box{
+    position: relative;
+    display: inline-block;
+
+}
+.shirt{
+   width: 300px;
+   height: 300px;
+   object-fit: cover;
+}
+.name{
+     background-color: black;
+     color: white;
+     position: absolute;
+     top: 10px;
+     right: 0;
+     font-family: Arial;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     padding-left: 12px;
+     padding-right: 12px;
+}
+.cart{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: rgba(255,255,255,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add{
+    background-color: white;
+     border-width: 1px;
+     border-style: solid;
+     border-color: black;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 15px;
+     padding-right: 15px;
+
+}
