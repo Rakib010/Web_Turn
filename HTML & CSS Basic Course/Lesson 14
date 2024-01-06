@@ -53,3 +53,75 @@ body{
 button{
   margin-top: 10px;
 }
+ // fb pp and button
+
+  <div class="container">
+        <div class="photo-container">
+          <img class="photo" src="cat.jpg">
+          <div class="name">Oliver Cat</div>
+        </div>
+          <div class="button">
+              <button class="add">Add Friend</button>
+              <button class="message">Message</button>
+          </div>
+      </div>
+
+** CSS ** 
+.container{
+    font-family: Arial;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.photo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+}
+.photo{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 30px; 
+    margin-right: 10px;
+}
+.name{
+   font-weight: bold;
+}
+button{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.add{
+    background-color: rgb(24,119,242);
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 3px;
+} 
+.message{
+    background-color: rgb(220,220,220);
+    font-weight: bold;
+    border-style: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
