@@ -117,9 +117,81 @@ button{
     border-style: none;
     border-radius: 5px;
 }
+//sideber 
 
+ <div class="sideber1">
+           <div>
+            <img class="photo" src="cat.jpg" alt="">
+           </div>
+           <div>
+            <img class="photo" src="cat.jpg" alt="">
+           </div>
+           <div>
+            <img class="photo" src="cat.jpg" alt="">
+           </div>
+        </div>
+          <div class="sideber2">
+              <div class="header">
+                  <div class="name">INFO</div>
+                  <div class="plus">+</div>
+              </div>
+                <div class="p"># new-videos</div>
+                <div class="p"># Updates</div>
+                <div class="p"># faq</div>
+          </div>
+      
 
-
+body{
+    height: 3000px;
+}
+div{
+    font-family: Arial;
+}
+.sideber1{
+    background-color: gray;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.photo{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+.sideber2{
+  background-color: rgb(55, 55, 55);
+  position: fixed;
+  left: 70px;
+  top: 0;
+  bottom: 0;
+  width: 150px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 10px;
+}
+.name{
+    color: white;
+    font-size: 14px;
+}
+.plus{
+    color: rgb(150,150,150);
+}
+.p{
+    color: rgb(150,150,150);
+    margin-bottom: 16px;
+}
 
 
 
