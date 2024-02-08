@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;  
+    font-family: 'Inter', sans-serif;
+}
+nav{
+   position: fixed;
+   width: 100%;
+   top: 0;
+   right: 0;
+   z-index: 1000;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background: transparent;
+   padding: 30px 12%;
+}
+.logo img{
+    max-width: 100%;
+    width: 120px;
+    height: auto;
+}
+ul {
+    display: flex;
+    align-items: center;
+}
+ul a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 4px 0;
+    margin: 0 30px;
+    border-bottom: 2px solid transparent;
+    transition: all .42s;
+}
+ul .active{
+    font-weight: 600;
+}
+ul a:hover{
+    color: #D3D3D3;
+    border-bottom: 2px solid #fff;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+.nav-right i{
+    color: #50004f;
+    font-size: 15px;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 30px;
+    margin: 0 12px;
+    transition: all .42s;
+}
+.nav-right i:hover{
+    transform: scale(1.1);
+}
+.nav-right .btn{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+#menu-icon{
+    color: #fff;
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+section{
+    padding: 60px 12%;
+}
+.home{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/Petty.png);
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 4rem;
+}
+.home-img{
+    max-width: 100%;
+    width: 550px;
+    height: auto;
+}
+.home-text h4{
+    color: #FD594B;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.home-text h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.home-text h1 span{
+    color: #FD594B;
+}
+.home-text p{
+    max-width: 530px;
+    color: #D3D3D3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0 0px 50px;
+}
+.home-btn{
+    display: flex;
+    align-items: center;
+}
+.home-btn span{
+    color: #fff;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    background: #FF593C;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    box-shadow: rgba(0,0,0,0.15) 1.95px 2.6px;
+    margin-left: 8px;
+}
+.hm-1{
+    display: inline-block;
+    justify-content: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: inherit;
+    background: linear-gradient(86deg,#FF5A37 0.61%,#FF3778 127.62%);
+    padding: 12px 20px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-right: 25px;
+    transition: all .42s;
+}
+.hm-1:hover{
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.hm-2{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: inherit;
+    border-bottom: 2px solid #fff;
+    transition: all .42s;
+}
+.hm-2:hover{
+    border-bottom: 2px solid transparent;
+    transform: scale(1.1);
+}
+.experts{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 10%;
+}
+.experts img{
+    max-width: 100%;
+    width: 60px;
+    height: auto;
+    cursor: pointer;
+    transition: all .42s;
+}
+.experts img:hover{
+    transform: scale(1.1);
+}
+.experts h5{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .42s;
+}
+.experts h5:hover{
+    text-decoration: underline #FF593C;
+    color: #FF593C;
+    transform: translateX(5px);
+}
+.down-icon{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 10%;
+    right: 12%;
+}
+.down-icon i{
+    color: #fff;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(86deg,#FF5A37 0.61%,#FF3778 127.62%);
+    border-radius: 30px;
+    transition: all .42s;
+
+}
+.down-icon i:hover{
+    transform: translateX(5px);
+}
