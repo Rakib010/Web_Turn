@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.sideber{
+    width: 200px;
+    height: 100vh;
+    background-color:  rgb(36, 29, 43);
+    padding: 20px 0;
+}
+ul{
+    text-align: center;
+    padding: 30px 0;
+}
+a{
+    display: block;
+    padding: 20px 0;
+    color: #fff;
+}
+.img{
+    background-image: url(cat2\ copy.jpg);
+    width: 85px;
+    height: 85px;
+    background-position: top center;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 5px solid rgba(255,0,0,0.5);
+}
+a:hover{
+    background:rgb(122, 8, 8);
+}
+a:focus{
+    background-color:rgba(53, 120, 145, 0.5);
+    color: whitesmoke;
+}
+
+
+/* Same stayel two way 
+
+.sideber{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    width: 150px;
+}
+ul {
+   text-align: center;
+   font-size: 18px;
+}
+a{
+    display: block;
+    padding: 20px 0;
+    color: #fff;
+}
+a:hover{
+    background-color: rgb(59, 97, 111);
+
+}
+a:focus{
+    background-color: rgb(206, 32, 32);
+}
+.img{
+    background-image: url(cat2\ copy.jpg);
+    width: 85px;
+    height: 85px;
+    background-position: top center;
+    background-size: cover;
+    border-radius: 50px;
+    margin: 20px auto;
+    border: 5px solid rgba(255,0,0,0.5);
+} */
