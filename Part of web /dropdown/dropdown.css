@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.navber{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.navber a{
+    display: block;
+    width: 200px;
+    background: rgb(117, 138, 144);
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.navber a:hover{
+    background: rgb(236, 125, 125);   
+}
+.products-plus{
+    display: none;
+}
+.navber :nth-child(2):hover .products-plus{
+    display: block;
+
+}
+.book-item{
+    transform: translateX(200px) translateY(-42px);
+    position: absolute;
+    display: none;
+}
+.navber :nth-child(3):hover .book-item{
+    display: block;
+}
+.service{
+    display: none;
+}
+.navber :nth-child(3):hover .service{
+    display:block;
+}
