@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+html,body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.center{
+    width: 451px;
+    height: 580px;
+    background: #96B8FA;
+    padding: 20px;
+    border-radius: 34px;
+    text-align: center;
+}
+h1{
+   color: white; 
+   font-size: 35px;
+   font-weight: 700;
+   margin: 40px;
+}
+.txt-filed{
+    margin: 35px 0;
+    position: relative;
+    height: 50px;
+    width: 100%;   
+}
+.txt-filed input{
+    height: 59px;
+    width: 335px;
+    border: 1px solid silver;
+    outline: none;
+    font-size: 16px;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+/*.txt-filed input:focus,
+.txt-filed input:valid{
+    border-color: gray;
+}*/
+.txt-filed label{
+    position: absolute;
+    top: 50%;
+    left: 55px;
+    transform: translateY(-30%);
+    pointer-events: none;
+    font-size: 16px;
+    color:gray;
+    transition: .4s;
+}
+.txt-filed input:focus ~ label,
+.txt-filed input:valid ~ label{
+    transform: translateY(-30px);
+    font-size: 16px;
+}
+input[type="submit"]{
+    background: #0D43AA;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+input[type="submit"]:active{
+    transform: scale(0.95);
+
+}
+.or{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+}
+.link{
+    display: flex;
+    cursor: pointer;
+}
+.fb, .go{
+    height: 40px;
+    width: 155px;
+    border: 1px solid silver;
+    background: #DCE8FF; 
+    margin: 25px;
+    border-radius: 10px;
+}
+.fb:hover{
+    border: 1px solid white;
+}
+.go:hover{
+    border: 1px solid white;
+}
+.link i{
+    font-size: 24px;
+    line-height: 40px;
+    margin-left: -90px; 
+}
+span{
+    position: absolute;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 10px;
+    color:#1877F2 ;
+}
+.fb i[class='bx bxl-facebook-circle']{
+    color: #1877F2;
+}
+.go i[class='bx bxl-google']{
+    
+}
+.signup{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.signup a{
+    text-decoration: none;
+    color: #FFC107;
+}
+.signup a:hover{
+    text-decoration: underline;
+}
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
