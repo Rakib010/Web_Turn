@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial;
+
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bg-image.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+}
+.navbar img{
+    max-width: 100%;
+    height: 70px;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+.menu ul a{
+    margin: 20px;
+    color: #c4cfde;
+    text-transform: uppercase;
+    font-size: 13px; 
+  
+}
+.menu ul a:hover{
+     color: white;
+}
+span{
+    color: white;
+}
+.btn{
+    color: white;
+    font-size: 13px;
+    margin: 10px;
+    font-weight: 400;
+    border: 1px solid #EF014F;
+    border-radius: 5%;
+    padding: 10px 25px;
+}
+.btn:hover{
+    background-color: #EF014F;
+    transition: 0.3s;
+}
+.main{
+    position: absolute;
+    color: white;
+    left: 8%;
+    top: 30%;
+}
+.main h1{
+    text-transform: capitalize;
+    font-family: 60px;
+    margin: 20px 0; 
+    font-size: 60px;  
+}
+.main h1 span{
+    color: #EF014F;
+}
+.main h4{
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-right: 20px;
+}
+.main p{
+    color: #c4cfde;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 10px 0 100px 0;
+}
+.main h3{
+    color: #c4cfde;
+    font-size: 14px;
+    text-transform:uppercase;
+    font-weight: 400;
+    margin: 20px 10px;
+}
+.icon i{
+    color: white;
+    font-size: 25px;
+    margin-right: 20px;
+}
+.icon  i:hover{
+    color: #EF014F;
+    transition: 0.3s;
+
+}
